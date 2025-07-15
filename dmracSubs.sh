@@ -1,11 +1,11 @@
 #!/bin/bash
 
 show_help(){
-  echo "Usages:dmracSubz [domains]"
+  echo "Usages:dmracSubs [domains]"
   echo 
   echo "Example:"
-  echo " $0 google.com"
-  echo "  $0 -o google-subs.txt google.com"
+  echo " dmracSubs google.com"
+  echo "  dmracSubs -o google-subs.txt google.com"
   echo 
   echo "Options:"
   echo " -h, --help   Show this help message"
