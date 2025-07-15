@@ -1,7 +1,7 @@
 #!/bin/bash
 
 show_help(){
-  echo "Usages:$0 [domains]"
+  echo "Usages:dmracSubz [domains]"
   echo 
   echo "Example:"
   echo " $0 google.com"

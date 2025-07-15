@@ -12,8 +12,8 @@ chmod +x dmracSubs.sh
 ```
 Or, 
 ```
-curl -sLo /usr/local/bin/dmracSubs https://raw.githubusercontent.com/0xthem7/dmracSubz/main/dmracSubs.sh
-chmod +x /usr/local/bin/dmracSubs
+sudo curl -sLo /usr/local/bin/dmracSubs https://raw.githubusercontent.com/0xthem7/dmracSubz/main/dmracSubs.sh
+sudo chmod +x /usr/local/bin/dmracSubs
 ```
 
 ## usages 
