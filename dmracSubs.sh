@@ -25,7 +25,7 @@ find_domains(){
   local dmarc_hash
   dmarc_hash=$(curl -s "https://dmarc.live/info/$domain" | grep -oP "dmarc_hash:'\K[^']+")
   if [[ -z "$dmarc_hash" ]]; then
-    echo "Error: Check if domain is correct $domain"
+    echo "Error: Check if domain is correct $domain or doamin may not have dmarc records"
     exit 1
   fi
   
