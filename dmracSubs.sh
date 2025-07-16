@@ -37,7 +37,6 @@ find_domains(){
   if [[ -n "$output_file" ]]; then
     printf "%s\n" "${domain_array[@]}" > "$output_file"
   else
-    printf "%s\n" "${domain_array[@]}" > "$output_file"
     for d in "${domain_array[@]}"; do
       echo "$d"
     done
